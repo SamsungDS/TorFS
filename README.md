@@ -31,8 +31,8 @@ TorFS supports xNVMe back-end that provides unified interfaces for multiple IO p
 |  **raw**  |                X                |            X            |           X           |  X   |
 
 - √: Support IO path and data directive			
-- O: Only support IO path			
-- X: Not support IO path
+- O: Support IO path only, not data directive
+- X: Not support IO path and data directive
 
 ```bash
 ./db_bench --benchmarks=<IO pattern> --fs_uri=torfs:<backend>:<dev>?be=<IO path>
