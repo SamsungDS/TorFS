@@ -10,7 +10,7 @@ Download RocksDB and TorFS:
 
 ```shell
 git clone git@github.com:facebook/rocksdb.git
-git clone git@github.com:SamsungDS/TorFS.git plugin/torfs
+git clone git@github.com:SamsungDS/TorFS.git rocksdb/plugin/torfs
 ```
 
 Install and enable TorFS in micro-bench tool of RocksDB
