@@ -1,6 +1,6 @@
 # TorFS: RocksDB Storage Backend for FDP SSDs
 
-TorFS is a plugin that enables RocksDB to access FDP SSDs
+TorFS is a plugin that enables RocksDB to access Flexible Data Placement (FDP) SSDs
 
 # Getting started
 
