@@ -1004,6 +1004,10 @@ size_t FDPWritableFile::GetRequiredBufferAlignment() const {
   return logical_sector_size_;
 }
 
+uint64_t FDPWritableFile::GetFileSize(const IOOptions&, IODebugContext*) {
+  return 0;
+}
+
 bool _file_exist(std::string file_name) {
   std::ifstream f(file_name.c_str());
   if (!f.good()) {

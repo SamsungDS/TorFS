@@ -28,6 +28,7 @@
 #include "port/port.h"
 #include "rocksdb/env.h"
 #include "rocksdb/status.h"
+#include "rocksdb/io_status.h"
 
 namespace rocksdb {
 

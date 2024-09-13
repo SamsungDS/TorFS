@@ -356,6 +356,7 @@ class FDPWritableFile : public FSWritableFile {
   IOStatus Truncate(uint64_t size, const IOOptions& options,
                     IODebugContext* dbg) override;
 
+  uint64_t GetFileSize(const IOOptions& , IODebugContext*) override;
   IOStatus InvalidateCache(size_t offset, size_t length) override;
   void SetWriteLifeTimeHint(Env::WriteLifeTimeHint hint) override;
   size_t GetUniqueId(char* id, size_t max_size) const override;
